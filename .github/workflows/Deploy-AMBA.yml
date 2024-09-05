@@ -13,7 +13,7 @@ env:
 
 jobs:
   deploy_job:
-    runs-on: ubuntu-arc-payex
+    runs-on: ubuntu-latest
     environment: deploy
 
     steps:
