@@ -69,13 +69,13 @@
       "value": ""
     },
     "userAssignedManagedIdentityName": {
-      "value": "id-amba-prod-001"
+      "value": "id-amba-prod-003"
     },
     "managementSubscriptionId": {
       "value": "293a2764-b41d-42f0-b8fa-4cc4cfef8406" 
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-amba-monitoring-001"
+      "value": "rg-amba-monitoring-003"
     },
     "ALZMonitorResourceGroupLocation": {
       "value": "swedencentral"
