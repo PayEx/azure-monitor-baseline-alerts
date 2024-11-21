@@ -205,8 +205,8 @@ If (!$reportOnly.IsPresent) {
     $alertResourceIds | Foreach-Object { Remove-AzResource -ResourceId $_ -Force:$force -Confirm:(!$force) }
 
     # delete resource groups
-    Write-Host "Deleting resource groups..."
-    $resourceGroupIds | ForEach-Object { Remove-AzResourceGroup -ResourceGroupId $_ -Force:$force -Confirm:(!$force) | Out-Null }
+#    Write-Host "Deleting resource groups..."
+ #   $resourceGroupIds | ForEach-Object { Remove-AzResourceGroup -ResourceGroupId $_ -Force:$force -Confirm:(!$force) | Out-Null }
 
     # delete policy assignments
     Write-Host "Deleting policy assignments..."
